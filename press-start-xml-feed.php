@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Press Start XML Feed Generator
-Plugin URI: https://yourwebsite.com/
+Plugin URI: https://press-start.gr
 Description: Generates a daily WooCommerce XML feed with product filtering options.
 Version: 1.1
 Author: Your Name
-Author URI: https://yourwebsite.com/
+Author URI: https://press-start.gr
 License: GPL2
 */
 
@@ -165,3 +165,4 @@ function ps_product_feed_admin_notice() {
     <?php
 }
 add_action('admin_notices', 'ps_product_feed_admin_notice');
+
